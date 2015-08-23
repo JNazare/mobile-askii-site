@@ -1,0 +1,103 @@
+/*
+ * global styles for certs.media
+ */
+
+
+/* FONT */
+
+@font-face {
+  font-family: Neue Haas Grotesk Light;
+  font-weight: 350;
+  src: url("/static/fonts/NHaasGroteskDSPro-35XLt.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Neue Haas Grotesk;
+  font-weight: 550;
+  src: url("/static/fonts/NHaasGroteskDSPro-55Rg.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Neue Haas Grotesk Bold;
+  font-weight: 750;
+  src: url("/static/fonts/NHaasGroteskDSPro-75Bd.otf") format("opentype");
+}
+
+/* GLOBAL STYLES */
+
+body{
+  font-family: Neue Haas Grotesk, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+a,
+a:hover,
+a:focus{
+  color: #333;
+}
+
+a:hover,a:focus{
+  text-decoration: underline;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #fff;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #222;
+  border: 1px solid #222;
+  border-radius: 0px;
+}
+
+.font-light{
+  font-family: Neue Haas Grotesk Light, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.font-bold{
+  font-family: Neue Haas Grotesk Bold, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.no-wrap{
+  white-space: nowrap;
+}
+
+.long-word{
+  word-wrap: break-word;
+}
+
+.centered{
+  text-align: center;
+}
+
+.selected{
+  text-decoration: underline;
+}
+
+.header{
+  border-bottom: thin solid #e3e3e3;
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   margin-top: 20px;
+   padding: 0px;
+}
+
+.font-overlay { 
+   position: absolute; 
+   top: 20px; 
+   width: 60%;
+   /*padding-left: 5px*/
+}
+
+.font-overlay span { 
+   color: white; 
+   font: bold 20px/44px Neue Haas Grotesk Bold, Sans-Serif; 
+   /*letter-spacing: -1px;  */
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding-top: 10px;
+   padding-bottom: 10px; 
+}
