@@ -18,4 +18,4 @@ def question_response(course_id, question_id):
 	return render_template('question_response.html')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', debug=True)
