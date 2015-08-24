@@ -121,6 +121,7 @@ a:hover,a:focus{
   box-shadow: 1px 1px 1px #e3e3e3;
 }
 
-#content{
-  margin-bottom: 130px;
+.right-align{
+  float: right;
+  margin: 0 0 10px 10px;
 }
