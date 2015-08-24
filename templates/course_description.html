@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+
+{% block title %} Home - {% endblock %}
+
+{% block head %}
+    {{ super() }}
+    <link href="/static/css/description.css" rel="stylesheet">
+{% endblock %}
+
+{% block header %}
+<div class="row">
+  <div class="col-md-12 col-sm-12 col-xs-12">
+    <p class="font-light">
+      <a href="" class="selected">Courses</a>
+      /
+      <a href="" class="selected">Phlebotomy Technician Certification</a>
+    </p>
+  </div>
+</div>
+{% endblock %}
+
+{% block content %}
+  <br>
+  <img src="/static/img/phlebotomy_technician_certification.jpg" width="60%" class="right-align">
+  <p class="font-light">
+    Bacon ipsum dolor amet porchetta brisket swine ham bacon jowl, short ribs rump turducken beef ribs filet mignon hamburger. Tail pork loin pork chop kevin tri-tip prosciutto short ribs tenderloin fatback rump cow pig. Alcatra pastrami sausage sirloin kielbasa porchetta ham ribeye pig. Cow turducken ball tip pork chop leberkas doner sausage pastrami frankfurter pork prosciutto.
+  </p>
+{% endblock %}
+
+{% block footer %}
+{% include 'footer.html' %}
+{% endblock %}

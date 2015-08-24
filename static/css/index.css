@@ -1,9 +1,5 @@
 /* styles for index.html homepage */
 
-body{
-  padding: 15px;
-}
-
 .heading{
   /*margin-top: 25px;*/
   /*margin-bottom: 10px;*/
@@ -11,12 +7,4 @@ body{
 
 .description{
   line-height: 1.3;
-}
-
-.hash{
-  line-height: 1.2;
-}
-
-#footer-info{
-  margin-top: 30px;
 }
