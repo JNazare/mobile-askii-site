@@ -125,3 +125,24 @@ a:hover,a:focus{
   float: right;
   margin: 0 0 10px 10px;
 }
+
+.center-align{
+  text-align: center;
+}
+
+.meter{
+  width:6.6vw;
+  height: 4px;
+  margin-top: 7px;
+  background-color: #e3e3e3;
+}
+
+.filled{
+  background-color: #222;
+}
+
+.meter-container{
+  padding-right: 0px;
+  float: right;
+  padding-left: 0px;
+}
